@@ -1,0 +1,25 @@
+nav{
+	padding : 1%;
+	margin-bottom: 1%;
+	display : flex;
+	justify-content: space-between;
+}
+span{
+	padding : 10px;
+	margin : 2%;
+	border : dotted 1px orange;
+	border-radius: 5px;
+}
+#aff{
+	text-align: center;
+}
+input{
+	margin-left: 10px;
+}
+#lettre{
+	width:30px;
+	margin-left: 10px;
+}
+#insertion{
+	display:none;
+}

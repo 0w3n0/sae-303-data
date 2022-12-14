@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+    <canvas id="myChart" style="width:100%;max-width:700px"></canvas>
+    <!-- <canvas id="myChart2" style="width:100%;max-width:700px"></canvas>
+    <canvas id="myChart3" style="width:100%;max-width:700px"></canvas>
+    <canvas id="myChart4" style="width:100%;max-width:700px"></canvas>
+    <canvas id="myChart5" style="width:100%;max-width:700px"></canvas> -->
+
+    <select onchange="showBreedImage(value)" name="breed_selector" id="breed_selector">
+    </select>
+    
+    <div>
+    <a id="wiki_link" target="_blank"></a>
+    <div id="breed_json"></div>
+    </div>
+    
+    <div>
+    <img id="breed_image"></img>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="chart-utils.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.0/chart.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
