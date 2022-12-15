@@ -1,0 +1,12 @@
+
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    img {
+        width: 40%;
+        height: auto;      
+    }
+    p{
+        @extend img;
+    }
+}
